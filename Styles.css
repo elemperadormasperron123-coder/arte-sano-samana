@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f6f2;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("imagenes/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
+/* NAV */
+nav {
+    background: #111;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECCIONES */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* BANNERS */
+.banner {
+    background: #6b4226;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* CARDS */
+.contenido {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+
+/* PRODUCTOS */
+.grid p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* GALERÍA */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.galeria img {
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
+
+/* ICONO */
+.icono {
+    width: 20px;
+    vertical-align: middle;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: white;
+    padding: 15px;
+}
